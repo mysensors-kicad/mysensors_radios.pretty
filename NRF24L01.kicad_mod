@@ -42,4 +42,14 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_2x04.wrl
+    (at (xyz -0.21 -0.11 0.442))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
+  )
+  (model mysensor.3dshapes/nrf24l01.wrl
+    (at (xyz -0.432 -0.585 0.475))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 0 0 0))
+  )
 )
