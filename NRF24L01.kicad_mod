@@ -47,7 +47,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
-  (model mysensor.3dshapes/nrf24l01.wrl
+  (model mysensors.3dshapes/nrf24l01.wrl
     (at (xyz -0.432 -0.585 0.475))
     (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 0 0 0))
