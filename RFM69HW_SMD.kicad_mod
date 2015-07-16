@@ -31,4 +31,9 @@
   (pad 14 smd rect (at 17.9 4) (size 2.2 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 15 smd rect (at 17.9 2) (size 2.2 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 16 smd rect (at 17.9 0) (size 2.2 1.2) (layers F.Cu F.Paste F.Mask))
+  (model mysensors.3dshapes/rfm69hw.wrl
+    (at (xyz 0.333 -0.275 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

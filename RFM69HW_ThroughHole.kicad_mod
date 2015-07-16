@@ -41,4 +41,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
+  (model mysensors.3dshapes/rfm69hw.wrl
+    (at (xyz 0.333 -0.275 0.25))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
