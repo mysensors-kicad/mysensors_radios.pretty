@@ -47,19 +47,39 @@
   (pad 14 thru_hole circle (at 17 4) (size 1.7272 1.7272) (drill 0.8) (layers *.Cu B.Mask))
   (pad 15 thru_hole circle (at 17 2) (size 1.7272 1.7272) (drill 0.8) (layers *.Cu B.Mask))
   (pad 16 thru_hole circle (at 17 0) (size 1.7272 1.7272) (drill 0.8) (layers *.Cu B.Mask))
-  (model walter/pin_strip/pin_socket_2mm_8.wrl
+  (model mysensors.3dshapes/w.lain.3dshapes/pin_strip/pin_socket_2mm_8.wrl
     (at (xyz -0.004 -0.276 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
-  (model walter/pin_strip/pin_socket_2mm_8.wrl
+  (model mysensors.3dshapes/w.lain.3dshapes/pin_strip/pin_socket_2mm_8.wrl
     (at (xyz 0.669 -0.276 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
   (model mysensors.3dshapes/rfm69hw.wrl
-    (at (xyz 0.333 -0.275 0.25))
+    (at (xyz 0.333 -0.28 0.345))
+    (scale (xyz 0.395 0.395 0.395))
+    (rotate (xyz 0 0 180))
+  )
+  (model mysensors.3dshapes/w.lain.3dshapes/pin_strip/pin_strip_2mm_8.wrl
+    (at (xyz -0.004 -0.276 0.31))
     (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 90))
+  )
+  (model mysensors.3dshapes/w.lain.3dshapes/pin_strip/pin_strip_2mm_8.wrl
+    (at (xyz 0.669 -0.276 0.31))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 90))
+  )
+  (model Crystals_Oscillators_SMD.3dshapes/crystal_FA238-TSX3225.wrl
+    (at (xyz 0.332 -0.08500000000000001 0.375))
+    (scale (xyz 0.24 0.24 0.24))
     (rotate (xyz 0 0 90))
+  )
+  (model Housings_DFN_QFN.3dshapes/QFN-28-1EP_5x5mm_Pitch0.5mm.wrl
+    (at (xyz 0.205 -0.45 0.375))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )
