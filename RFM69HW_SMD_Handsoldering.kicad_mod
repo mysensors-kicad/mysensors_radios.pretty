@@ -31,12 +31,12 @@
   (pad 14 smd rect (at 18.3 4) (size 3 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 15 smd rect (at 18.3 2) (size 3 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 16 smd rect (at 18.3 0) (size 3 1.2) (layers F.Cu F.Paste F.Mask))
-  (model mysensors.3dshapes/rfm69hw.wrl
+  (model ${MYSLOCAL}/mysensors.3dshapes/mysensors_radios.3dshapes/rfm69hw.wrl
     (at (xyz 0.332 -0.275 0.03))
     (scale (xyz 0.395 0.395 0.395))
     (rotate (xyz 0 0 180))
   )
-  (model Crystals_Oscillators_SMD.3dshapes/crystal_FA238-TSX3225.wrl
+  (model Crystals.3dshapes/crystal_FA238-TSX3225.wrl
     (at (xyz 0.332 -0.08 0.06))
     (scale (xyz 0.24 0.24 0.24))
     (rotate (xyz 0 0 90))

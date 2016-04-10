@@ -47,7 +47,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
-  (model mysensors.3dshapes/nrf24l01.wrl
+  (model ${MYSLOCAL}/mysensors.3dshapes/mysensors_radios.3dshapes/nrf24l01.wrl
     (at (xyz -0.3 -0.5669999999999999 0.475))
     (scale (xyz 0.395 0.395 0.395))
     (rotate (xyz 0 0 0))
@@ -57,7 +57,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model mysensors.3dshapes/w.lain.3dshapes/crystal/crystal_hc-49s.wrl
+  (model ${MYSLOCAL}/mysensors.3dshapes/w.lain.3dshapes/crystal/crystal_hc-49s.wrl
     (at (xyz -0.5 -0.475 0.51))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
