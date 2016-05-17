@@ -7,6 +7,10 @@
   (fp_text value RFM69HW (at 8.382 7.112) (layer F.Fab) hide
     (effects (font (size 0.8 0.8) (thickness 0.16)))
   )
+  (fp_line (start -2.4 15) (end -2.4 -1) (layer F.SilkS) (width 0.15))
+  (fp_line (start 19.3 15) (end -2.4 15) (layer F.SilkS) (width 0.15))
+  (fp_line (start 19.3 -1) (end 19.3 15) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2.4 -1) (end 19.3 -1) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.4 15) (end 19.3 15) (layer F.CrtYd) (width 0.15))
   (fp_line (start 19.3 -1) (end 19.3 15) (layer F.CrtYd) (width 0.15))
   (fp_line (start -2.4 -1) (end -2.4 15) (layer F.CrtYd) (width 0.15))
