@@ -52,7 +52,7 @@
     (scale (xyz 0.395 0.395 0.395))
     (rotate (xyz 0 0 180))
   )
-  (model Crystals.3dshapes/crystal_FA238-TSX3225.wrl
+  (model Crystals.3dshapes/Crystal_SMD_SeikoEpson_TSX3225-4pin_3.2x2.5mm.wrl
     (at (xyz 0.332 -0.08 0.375))
     (scale (xyz 0.24 0.24 0.24))
     (rotate (xyz 0 0 90))

@@ -37,15 +37,15 @@
   (pad 4 thru_hole oval (at -4.064 4.064) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole rect (at -1.524 1.524) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole oval (at -1.524 4.064) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  (model Socket_Strips.3dshapes/Socket_Strip_Straight_2x04.wrl
+  (model Socket_Strips.3dshapes/Socket_Strip_Straight_2x04_Pitch2.54mm.wrl
     (at (xyz -0.21 -0.11 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_2x04.wrl
-    (at (xyz -0.21 -0.11 0.442))
+  (model Pin_Headers.3dshapes/Pin_Header_Straight_2x04_Pitch2.54mm.wrl
+    (at (xyz -0.063 -0.159 0.442))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 0))
+    (rotate (xyz 0 180 90))
   )
   (model ${MYSLOCAL}/mysensors.3dshapes/mysensors_radios.3dshapes/nrf24l01.wrl
     (at (xyz -0.3 -0.5669999999999999 0.475))
